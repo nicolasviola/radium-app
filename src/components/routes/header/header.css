@@ -1,0 +1,14 @@
+.mainHeader {
+    height: 60px;
+    width: 100%;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.buttonHeader {
+    margin-left: 20px;
+}
