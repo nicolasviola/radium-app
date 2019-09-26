@@ -1,16 +1,15 @@
-import React from 'react';
-import App from '../app/app.js'
-import MainScreen from './main-screen/main-screen.js'
+import React from "react";
+import App from "../app/app.js";
+import MainScreenHooks from "./main-screen-hooks/main-screen.js";
 
 class Route extends React.Component {
   render() {
     return (
       <App>
-        <MainScreen />
+        <MainScreenHooks />
       </App>
     );
   }
-  
 }
 
 export default Route;
